@@ -1,7 +1,7 @@
 #include "sort.h"
 
 /**
- * lomuto_partition- Lomuto partition scheme for quick sort
+ * lomuto_partition - Lomuto partition scheme for quick sort
  * @array: the array to be sorted
  * @low: the strating index of the partition
  * @high: the ending index of the partion
@@ -12,7 +12,7 @@
 int lomuto_partition(int *array, int low, int high, size_t size)
 {
 	int pivot = array[high];
-	int i = low -1;
+	int i = low - 1;
 	int j, tmp;
 
 	for (j = low; j <= high - 1; j++)
