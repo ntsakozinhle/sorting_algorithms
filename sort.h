@@ -47,6 +47,7 @@ void backward_pass(listint_t **list, listint_t *start, listint_t *end, int *swap
 
 
 void counting_sort(int *array, size_t size);
+void merge_sort(int *array, size_t size);
 
 
 
