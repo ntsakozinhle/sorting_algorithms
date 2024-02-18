@@ -43,5 +43,8 @@ void forward_pass(listint_t **list, listint_t *start, listint_t *end, int *swapp
 void backward_pass(listint_t **list, listint_t *start, listint_t *end, int *swapped);
 
 
+void counting_sort(int *array, size_t size);
+
+
 
 #endif
