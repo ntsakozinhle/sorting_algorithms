@@ -38,4 +38,10 @@ int lomuto_partition(int *array, int low, int high, size_t size);
 void quick_sort_recursive(int *array, int low, int high, size_t size);
 
 
+void swap_nodes(listint_t **list, listint_t *a, listint_t *b);
+void forward_pass(listint_t **list, listint_t *start, listint_t *end, int *swapped);
+void backward_pass(listint_t **list, listint_t *start, listint_t *end, int *swapped);
+
+
+
 #endif
