@@ -2,6 +2,7 @@
 #define SORT_H
 
 #include <stdio.h>
+#include <string.h>
 #include <stdlib.h>
 #include <stddef.h>
 
@@ -20,6 +21,8 @@ typedef struct listint_s
 } listint_t;
 
 /* Function prototypes */
+
+int compare_integers(const void *a, const void *b);
 
 /* Print Functions */
 void print_array(const int *array, size_t size);
