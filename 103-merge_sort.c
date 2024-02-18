@@ -79,6 +79,15 @@ void merge(int *array, size_t left, size_t mid, size_t right)
 		k++;
 	}
 
+	printf("[Done]: ");
+	for (x = left; x <= right; x++)
+	{
+		printf("%d", array[x]);
+		if (x < right)
+			printf(", ");
+	}
+	printf("\n");
+
 
 	free(left_array);
 	free(right_array);
